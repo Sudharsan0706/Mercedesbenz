@@ -1,0 +1,330 @@
+.p1clr{
+    width:auto;
+    height:auto;
+    border: 1px solid black;
+    padding: 1% 2% 1% 2%;
+    background-color:black;
+}
+.p1img{
+    width: 7%;
+    height: 7%;
+    margin-left: 45%;
+}
+.p1bdy{
+    height: auto;
+    width: auto;
+    margin-top: 3%;
+    margin-left: 20%;
+    margin-right: 20%;
+    border-radius: 1rem;
+}
+.p1btn{
+    border-radius: 2rem;
+    padding-left: 15%;
+    padding-right: 15%;
+    background-color:blue;
+    color:white;
+    font-weight: bold;
+    border:hidden;
+    margin-bottom: 5%;
+}
+.p1topbtn{
+    padding-left: 3%;
+    padding-right: 3%;
+    border-radius: 2rem;
+    margin-right: 29%;
+    margin-left: 29%;
+    margin-top: 7%;
+    background-color:white;
+    border:hidden;
+    font-weight: bold;
+}
+.p1label{
+    font-weight: bold;
+    color:white
+}
+.p1req{
+    color: red;
+    font-weight: bold;
+}
+.p1icon{
+    cursor: pointer;
+}
+.p1inputbox{
+    width: auto;
+    padding-right: 14%;
+    border: none;
+    border-radius: 0.3rem;
+}
+.p1bgimg{
+    background-image:url(C:\reactjs\project2\src\images\benzbg.jpg);
+    background-size: cover;
+    position: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    width:100%;
+    height: 100%;
+}
+.p2clr{
+    width:auto;
+    height:auto;
+    border: 1px solid black;
+    padding: 1% 2% 0.3% 2%;
+    background-color:black;
+    display: flex;
+    border-bottom: 1px solid white;
+}
+.p2img{
+    width: 10%;
+    height: 10%;
+    margin-left: 45%;
+}
+.p2topicn{
+    background-color:black;
+    border: none;
+    margin-left: 2%; 
+}
+.p2topicn:hover{
+    background-color: black;
+}
+.p2div2{
+    background-color: black;
+    height: auto;
+    width: auto;
+    border-bottom: 1px solid white;
+    display: flex;
+    padding-left: 7%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+.page2div2{
+    display: none;
+}
+@media(max-width:540px){
+    .p2div2{
+        padding-left: 1%;
+    }
+    .p2link{
+        display: none;
+}
+    .page2div2{
+        height: auto;
+        width: auto;
+        display: block;
+    }
+    .p2canvasbtn{
+        background-color: black;
+        border: none;
+    }
+    .p2caricon{
+        display: none !important;
+    }
+    .p2recom{
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 200%;
+        margin-left: 13% !important;
+    }
+    .p2carousel{
+        margin-left: 16% !important;
+    }
+}
+.p2link{
+    color: white;
+    text-decoration: none;
+    margin-right: 3%;
+}
+.page2link{
+    color:rgb(4, 111, 252);
+    font-weight: bold;
+    text-decoration: none;
+    font-size: large;
+    line-height: 2.3;
+}
+.p2caricon{
+    color: white;
+    margin-right: 0.5%;
+}
+.p2div3{
+    background-color: black;
+    height: auto;
+    width: auto;
+    border-bottom: 1px solid white;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: large;
+}
+.p2img2{
+    width: 100%;
+    height: 100%;
+}
+.p2recom{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 200%;
+    margin-left: 6%;
+}
+.p2carousel{
+    margin-left: 6%;
+}
+.p2bottom{
+    background-color: black;
+    height: auto;
+    width: auto;
+}
+.p2btm{
+    padding-left: 15%;
+    display: flex;
+}
+.p2btmdiv1{
+    color: white;
+    margin-right: 15%;
+}
+.p2accordian{
+    margin-left: 10%;
+    margin-right: 10%;
+    display: none;
+}
+#accordianheader{
+    background-color: black;
+    color: white;
+    border: none;
+}
+@media(max-width:540px){
+    .p2btm{
+        display: none;
+    }
+    .p2accordian{
+        margin-left: 10%;
+        margin-right: 10%;
+       display: block;
+    }
+}
+.contctimg{
+    height: 100%;
+    width: 100%;
+}
+.contctfnt{
+    font-size: 300%;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 5%;
+}
+.insuranceimg{
+    background-image: url(C:/reactjs/project2/src/images/insuranceimg.jpg);
+    background-size: contain;
+    position:absolute;
+    background-repeat: no-repeat;
+    width:100%;
+    height: 100%;
+}
+.insurdiv{
+    color: white;
+    margin-top: 15%;
+    margin-left: 6%;
+    font-family: 'Times New Roman', Times, serif;
+}
+@media(max-width:540px){
+    .insurdiv{
+        display: none;
+    }
+    .insurdiv2{
+        display: flex;
+        flex-direction: column;
+        padding-left: 6%;
+    }
+    .insurdoublediv{
+        height: auto;
+        min-width: 95%;
+    }
+}
+.insurtopic{
+    font-size: 200%;
+    font-family: 'Times New Roman', Times, serif;
+    color: gray;
+    margin-top: 50%;
+    margin-left: 6%;
+}
+.insurdiv2{
+    display: flex;
+    padding-left: 6%;
+}
+.insurdoublediv{
+    height: auto;
+    width: 50%;
+    margin-right: 3%;
+}
+.insurpara{
+    color: gray;
+    text-align: justify; 
+}
+.financeimg{
+    background-image: url(C:/reactjs/project2/src/images/financeimg.jpg);
+    background-size: contain;
+    position:absolute;
+    background-repeat: no-repeat;
+    width:100%;
+    height: 100%;
+}
+.financediv{
+    color: white;
+    margin-top: 15%;
+    margin-left: 6%;
+    font-family: 'Times New Roman', Times, serif;
+}
+@media(max-width:540px){
+    .financediv{
+        display: none;
+    }
+    .finandiv2{
+        display: flex;
+        flex-direction: column;
+        padding-left: 6%;
+    }
+    .finandoublediv{
+        height: auto;
+        min-width: 90%;
+        margin-right: 3%;
+        color: gray;
+        font-size: larger;
+        text-align: justify;
+}
+}
+.finanfnt{
+    color: gray;
+    margin-top: 50%;
+    margin-left: 6%;
+    font-family: 'Times New Roman', Times, serif;
+}
+.finandiv2{
+    display: flex;
+    padding-left: 6%;
+}
+.finandoublediv{
+    height: auto;
+    width: 50%;
+    margin-right: 3%;
+    color: gray;
+    font-size: larger;
+    text-align: justify;
+}
+.finanimg1{
+    width: 100%;
+}
+.modelstab{
+    font-weight: bold;
+}
+.modelsdiv{
+    background-color:lightgray;
+}
+.modelsimg{
+    height: 100%;
+    width: 100%;
+    padding-left: 7%;
+}
+.modelspara{
+    padding-left:6%;
+    font-weight:bold;
+    font-family: 'Times New Roman', Times, serif;
+  
+}
+
+
